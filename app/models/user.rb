@@ -5,4 +5,5 @@ class User < ApplicationRecord
   has_many :clients
   has_many :product_quantities
   has_many :sales
+  has_many :comissions
 end
