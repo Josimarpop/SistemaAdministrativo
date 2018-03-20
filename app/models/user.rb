@@ -3,4 +3,6 @@ class User < ApplicationRecord
   enum status: [:active, :inactive]
   has_many :addresses
   has_many :clients
+  has_many :product_quantities
+  has_many :sales
 end
