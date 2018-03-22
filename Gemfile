@@ -29,8 +29,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails_admin'
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 gem 'devise'
-
 gem 'cancancan'
+gem 'carrierwave'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
